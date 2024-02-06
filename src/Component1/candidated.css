@@ -1,0 +1,367 @@
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+
+
+.maincan ,.show-maincan{
+/* border: 1px solid black; */
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 3px 1px 9px gray;
+
+    margin: 10px;
+}
+
+.canuser{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.nam{
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.nam .material-symbols-outlined{
+    position: relative;
+    top:8px;
+    /* border-radius: 50% solid rgb(245, 6, 6);
+    background: green; */
+
+}
+
+
+
+.ph5{
+    padding: 0px 10px 0px 10px;
+    font-family: 'Poppins';
+    
+}
+
+.udate{
+    padding: 0px 10px 0px 100px;
+    /* margin-left: 50px; */
+    font-family: 'Poppins';
+    
+}
+
+
+
+
+
+.bio {
+
+    padding: 15px 0px 15px 50px;
+}
+.bio>h3{
+    padding-left:10px ;
+}
+
+
+.sita{
+    display: flex;
+    justify-content: space-between;
+}
+.exp{
+    /* display: flex; */
+    flex: 2;
+
+    padding-left: 20px;
+    border-left: none;
+}
+.tech{
+
+    /* display: flex; */
+    flex: 1;
+}
+
+.btn03{
+    padding: 10px 10px 0px 10px;
+    font-family: 'Poppins';
+}
+
+.btn02 ,.btn01,.btn003{
+    padding: 5px 10px 5px 10px;
+    margin-right:15px ;
+
+    border-radius: 25px;
+    border: none;
+    background: 
+    #101010;
+    color: white;
+    font-family: 'Poppins';
+    
+
+}
+.btn003>p{
+    position: relative;
+    display: inline;
+    padding: 0px 0px 0px 3px;
+    top:-8px  ;
+    font-family: 'Poppins';
+
+}
+
+.btn02>p{
+    position: relative;
+    display: inline;
+    padding: 0px 0px 0px 3px;
+    top:-8px  ;
+    font-family: 'Poppins';
+
+
+}
+
+
+.btn01{
+    padding: 10px 5px 10px 5px;
+    position: relative;
+    top:-8px ;
+    font-family: 'Poppins';
+}
+
+
+
+
+.btn003{
+    margin-right:80px ;
+    font-family: 'Poppins';
+    
+}
+
+.one,.two  ,.edone,.edtwo{
+
+    width: 25px;
+      height: 25px;
+      /* background-color: #3498db; Change the background color as needed */
+      border-radius: 50%   ;/* Creates a circular shape */
+
+      border: 1px solid 
+      #3583F6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: 
+      #3583F6; /* Change the text color as needed */
+      font-size: 10px; /* Adjust the font size as needed */
+      font-weight: bold;
+      font-family: 'Poppins';
+
+}
+
+.dreactG> p ,.dreact>p,.Mb>p ,.bt>p{
+    color: #3583F6;
+    font-family: 'Poppins';
+}
+
+.btnshort,.btnreject{
+    width:500px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins';
+    
+
+}
+
+
+.btnshort{
+    background: 
+    #3583F6;
+    color: white;
+    font-family: 'Poppins';
+
+}
+
+.btnreject{
+    border: 1px solid  #3583F6;
+   background:  #FFFFFF;
+   font-family: 'Poppins';
+   margin-right: 60px;
+
+   
+}
+
+legend:nth-child(2){
+    display: flex;
+    justify-content: end;
+    font-family: 'Poppins';
+}
+
+
+
+/* .two,.dreactp1{
+    display: inline-block;
+} */
+.two{
+    /* margin-top: 10px;
+    padding: 1px;
+    text-align: center;
+    justify-content: center; */
+    position: relative;
+    top: 30px;
+    font-family: 'Poppins';
+
+}
+
+.dreactG{
+    /* padding-top: 10px; */
+    /* margin: 0px 0px 0px 30px; */
+    margin-left: 40px;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+
+/* .dreactp1{
+    margin-left: 10px;
+} */
+
+.para2>li,.para>li{
+   
+
+    margin-left: 42px;
+    font-family: 'Poppins';
+}
+
+.para2,.para{
+    padding-top:10px ;
+}
+
+.para2{
+    padding-bottom: 10px;
+}
+
+
+
+.dreact{
+    margin-left: 40px;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+.dreact>p,.dreactG>p{
+    font-size: small;
+}
+
+.one{
+    position: relative;
+    top: 30px;
+    font-family: 'Poppins';
+}
+
+
+.edone,.edtwo{
+    position: relative;
+    top: 29px;
+    font-family: 'Poppins';
+}
+
+.Mb,.bt{
+    margin-left: 40px;
+    position: relative;
+    font-family: 'Poppins';
+
+
+}
+
+.Mb>p,.bt>p{
+    font-size: 12px;
+}
+
+.skli>li ,.skli2>li{
+
+     list-style-type: none;
+     background:#DFEDFF ;
+     padding: 5px;
+     border-radius: 10px;
+     font-family: 'Poppins';
+
+}
+
+
+.skli>li:last-child{
+    margin-right: 130px;
+    font-family: 'Poppins';
+}
+
+
+.skli2>li:last-child{
+    margin-right: 130px;
+    font-family: 'Poppins';
+}
+
+/* .v1{
+    border-left: 6px solid green;
+  height: 500px;
+} */
+
+
+
+
+
+
+
+.skli{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-family: 'Poppins';
+    
+}
+.skli2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: 'Poppins';
+}
+
+
+fieldset{
+    border-left: none;
+
+    border: 1px solid 
+    rgba(166, 169, 172, 0.7);
+
+    padding: 20px 0px 20px 0px;
+}
+.tech{
+    border-right: none;
+    padding-left: 20px;
+
+
+}
+
+.both{
+    position: relative;
+    top:-15px;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.fig{
+
+    padding-left: 10px;
+    padding-bottom:20px ;
+}
+
+
+/* .one,.dreact,.para,.two,.dreactG,.para2{
+    margin-left: 10px;
+} */
+
+
+
+
+ /* Mohammad Gulab 20  12/08/2004
+ md Musa Ali  19
+ Rehan alam 29 */
+
+

@@ -1,0 +1,76 @@
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+
+
+.dropend  .material-symbols-outlined{
+    position: relative;
+    top: 6px;
+
+}
+
+.radhe{
+    display: inline;
+    padding: 10px 10px 10px 30px;
+}
+
+#cars{
+    border: 1px solid 
+    rgba(16, 16, 16, 1);
+    padding:  5px 10px 5px 10px;
+    border-radius: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+.app{
+    margin-left: 20px;
+
+}
+
+.dobtn{
+
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 3px 5px 9px gray;
+
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+.butner>p{
+    display: inline;
+    justify-content: end;
+    position: relative;
+    top:-6px;
+    text-decoration: none;
+
+}
+
+.ndbut>p{
+    display: inline;
+    justify-content: end;
+    position: relative;
+    top:-6px;
+
+}
+
+
+.mainjob,.maincan{
+    display: none;
+}
+
+.show-mainjob,.show-maincan{
+    display: block;
+}
+

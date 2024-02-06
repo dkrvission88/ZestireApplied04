@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.mainAsr,.active-mainAsr{
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px 10px 20px 10px;
+
+    border: 1px solid 
+    rgba(166, 169, 172, 0.7);
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+}
+
+
+
+.mainAsr .material-symbols-outlined{
+    position: relative
+    ;
+    top:8px;
+
+    padding-right: 10px;
+}
+
+.Ci ,.JA{
+    
+    display: flex; 
+     justify-content:space-around ;
+}
+
+.mmd2 ,.Adate{
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+.btnview{
+    margin-right: 40px;
+}
+
+.btnview .material-symbols-outlined{
+    color: green;
+}
+
+
+
+
+.btn1{
+    border: 1px solid rgba(0, 0, 0, 1) ;
+    background: rgba(255, 255, 255, 1);
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+
+    justify-content: center;
+}
+
+.check{
+    color: rgba(53, 131, 246, 1);
+}
+
+.btnview .material-symbols-outlined{
+    padding: 10px;
+    position: relative;
+    top:5px
+}
+
+.mainAsr,.mainAsr1{
+    display: none;
+}
+
+
+.active-mainAsr1 ,.active-mainAsr{
+    display: block;
+}
+
+
+
